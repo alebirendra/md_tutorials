@@ -1,0 +1,57 @@
+
+
+installation on ubuntu
+
+
+
+step 1
+
+curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
+./bin/micromamba shell init -s bash -r ~/micromamba  
+source ~/.bashrc
+
+
+step 2: create virtual environment 
+micromamba create -n env_micromamba
+micromamba activate env_micromamba
+
+
+continue working on this 'env_micromamba' environment for the rest of the processes
+step 3: install dependencies
+micromamba install jupyter -c conda-forge
+micromamba install fresnel
+micromamba install freud
+micromamba install gsd
+micromamba install matplotlib
+micromamba install h5py
+
+
+step 4: install hoomd
+micromamba install hoomd=5.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
