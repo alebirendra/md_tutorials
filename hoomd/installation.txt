@@ -4,7 +4,7 @@ installation on ubuntu
 
 
 
-step 1
+step 1: download and install micromamba
 
 curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
 ./bin/micromamba shell init -s bash -r ~/micromamba  
